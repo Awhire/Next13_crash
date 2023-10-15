@@ -1,11 +1,12 @@
 import './globals.css'
 import { Poppins } from 'next/font/google'
-import Header from './components/Header'
+import Header from './components/Header' 
 
 const poppins = Poppins({ 
-  weight: ['400', '500', '700'],
-  subsets: ['latin']
+  weight: ['400', '700'],
+  subsets: ['latin'] 
 })
+
 
 export const metadata = {
   title: 'Khiztech Media',
@@ -25,3 +26,10 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+
+
+
+
+
+
